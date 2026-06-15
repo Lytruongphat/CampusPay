@@ -1,22 +1,68 @@
-# Soroban Project
+# CampusPay
 
-## Project Structure
+## Project Description
 
-This repository uses the recommended structure for a Soroban project:
+CampusPay is a Stellar/Soroban-powered payment ecosystem designed for university campuses.
 
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+Students can use CAMP Tokens to purchase goods and services within the campus, including cafeterias, convenience stores, stationery shops, parking areas, and campus events.
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+The project creates a secure and transparent digital economy for students using Stellar blockchain technology.
+
+## Problem
+
+University campuses often rely on cash payments or multiple disconnected payment systems.
+
+This creates inconvenience for students and limits the university's ability to provide rewards, scholarships, and digital services.
+
+## Solution
+
+CampusPay introduces a closed-loop payment ecosystem powered by Stellar and Soroban smart contracts.
+
+Students receive CAMP Tokens and use them for daily transactions inside the campus.
+
+Only approved campus merchants can accept payments.
+
+## Key Features
+
+* Student token balance management
+* Merchant registration system
+* Secure token payments
+* Blockchain transaction transparency
+* Campus-only payment ecosystem
+
+## Smart Contract Information
+
+Network: Stellar Testnet
+
+Contract ID:
+
+CAITQZ7BLLAWI3765SAPUCHSWSJYDAPR...
+
+## Technology Stack
+
+* Stellar
+* Soroban
+* Rust
+* Freighter Wallet
+* GitHub
+
+## Future Scope
+
+* QR Code Payments
+* Student NFT ID Cards
+* Scholarship Distribution
+* Loyalty Rewards System
+* Mobile Application
+
+## Demo Flow
+
+1. Register Merchant
+2. Mint CAMP Tokens
+3. Check Student Balance
+4. Pay Merchant
+5. Verify Updated Balances
+
+## Author
+
+Ly Truong Phat
+Build Your Dapp on Stellar
